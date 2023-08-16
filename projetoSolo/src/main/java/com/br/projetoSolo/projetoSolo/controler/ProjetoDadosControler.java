@@ -14,7 +14,7 @@ import javax.transaction.Transactional;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("home")
+@RequestMapping("/home")
 public class ProjetoDadosControler {
     @Autowired
     private DadosRepository repository;
